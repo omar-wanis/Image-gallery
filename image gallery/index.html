@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Image Gallery</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Quicksand&display=swap" rel="stylesheet">
+</head>
+<body>
+<h1 class="gallery-title">Image Gallery</h1>
+
+  <div class="filter-buttons">
+    <button data-filter="all" class="active">All</button>
+    <button data-filter="nature">Nature</button>
+    <button data-filter="architecture">Architecture</button>
+    <button data-filter="animals">Animals</button>
+  </div>
+<div class="gallery">
+  <div class="gallery-item" data-category="nature">
+    <img src="https://picsum.photos/id/1018/600/400" alt="Nature" />
+  </div>
+  <div class="gallery-item" data-category="animals">
+    <img src="https://picsum.photos/id/1025/600/400" alt="Dog" />
+  </div>
+  <div class="gallery-item" data-category="animals">
+    <img src="https://picsum.photos/id/237/600/400" alt="Dog" />
+  </div>
+  <div class="gallery-item" data-category="nature">
+    <img src="https://picsum.photos/id/1015/600/400" alt="Nature" />
+  </div>
+  <div class="gallery-item" data-category="architecture">
+    <img src="https://picsum.photos/id/1031/600/400" alt="Architecture" />
+  </div>
+  <div class="gallery-item" data-category="animals">
+    <img src="https://picsum.photos/id/1024/600/400" alt="Animals" />
+  </div>
+</div>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-img" src="" alt="" />
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
