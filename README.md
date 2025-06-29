@@ -22,7 +22,7 @@ A responsive and interactive image gallery built with HTML, CSS, and JavaScript.
    git clone https://github.com/omar-wanis/Image-gallery.git
    ```
 2.**Open the App:**
-   - Navigate to the `simple calculator` folder.
+   - Navigate to the `image gallery` folder.
    - Open `index.html` in your web browser.
 3. **Open the Gallery**
    - Simply open `index.html` in your web browser.
